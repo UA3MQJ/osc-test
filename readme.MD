@@ -9,11 +9,12 @@ Test of the oscilloscope's ability to display rare events
                     +---------------+  ...    ...   +--
                     |  | |    | |   |  | |    | |   | 
                   --+  ...    ...   +---------------+
-
+  
   1 spike per second    -^
   2 spike per second           -^
   4 spike per second                    -^
   8 spike per second                          -^
+  
 
 # Debug
 

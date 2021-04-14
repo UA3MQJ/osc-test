@@ -1,0 +1,16 @@
+module test_max240(clk, led);
+
+input wire clk;
+output reg led;
+
+reg [25:0] cnt;
+
+initial cnt <= 26'd0;
+initial led <= 0;
+
+always @(posedge clk) begin
+	cnt <= (cnt == 26'd25000000) ? 26'd0 : cnt + 1;
+	led <= (cnt == 26'd25000000) ? ~led : led;	
+end
+
+endmodule

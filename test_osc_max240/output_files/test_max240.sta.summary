@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'rled'
+Slack : -4.002
+TNS   : -59.933
+
+Type  : Setup 'clk50M'
+Slack : -1.505
+TNS   : -4.507
+
+Type  : Hold 'clk50M'
+Slack : -1.594
+TNS   : -1.594
+
+Type  : Hold 'rled'
+Slack : 1.695
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk50M'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'rled'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------

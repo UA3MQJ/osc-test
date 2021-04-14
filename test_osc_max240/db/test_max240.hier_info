@@ -1,0 +1,11 @@
+|test_max240
+clk50M => rled.CLK
+clk50M => clkdiv[0].CLK
+clk50M => clkdiv[1].CLK
+led <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+wo1 <= wss1.DB_MAX_OUTPUT_PORT_TYPE
+wo2 <= wss2.DB_MAX_OUTPUT_PORT_TYPE
+wo3 <= wss4.DB_MAX_OUTPUT_PORT_TYPE
+wo4 <= wss8.DB_MAX_OUTPUT_PORT_TYPE
+
+
